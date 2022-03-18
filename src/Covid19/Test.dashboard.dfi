@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<dashboard xmlns="http://www.intersystems.com/deepsee/library" name="Test" folderName="Covid19" title="" description="" keywords="" owner="" shared="true" public="true" locked="false" resource="" timeCreated="2022-03-18T19:54:13.653Z" createdBy="_SYSTEM" category="" bookCover="" scheme="" worklistCount="2" snapTo="true" snapGrid="true" gridRows="10" gridCols="10" canResize="true" canModify="true" showTitleBar="true" titleBarOpacity="" titleBarColor="" selectedTitleBarOpacity="" selectedTitleBarColor="" titleBarTextColor="" selectedTitleBarTextColor="" titleBarFont="" companyName="" companyLogo="" companyStyle="" backgroundColor="white" backgroundImage="none" backgroundRepeat="no-repeat" backgroundSize="100% 100%" backgroundOpacity="1" widgetBorders="1px solid #F0F0F0" widgetBordersSwitch="edit" widgetBordersColor="#F0F0F0" widgetBordersStyle="solid" widgetBordersWidth="1" widgetBordersToggle="true">
+  <widget name="Recovered by countries" type="pivot" subtype="pivot" subtypeClass="lineChart" title="Recovered by countries" dataSource="Covid19/Recovered.pivot" dataLink="" drillDownDataSource="" width="200" height="200" sidebarContent="" showSidebar="false" sidebarWidth="" maximized="false" homeRowL="0" homeColL="0" colSpanL="4" rowSpanL="10" showToolbar="true" showToolbarBottomBorder="true" showToolbarOnlyWhenMaximized="false" colorToolbar="#F0F0F0" opacityToolbar="1" backgroundColor="#F0F0F0" opacity="1" theme="" dataColorList="">
+    <property name="analyzer">0</property>
+    <property name="borderBottomCell"></property>
+    <property name="borderBottomCol"></property>
+    <property name="borderBottomRow"></property>
+    <property name="borderLeftCell"></property>
+    <property name="borderLeftCol"></property>
+    <property name="borderLeftRow"></property>
+    <property name="borderRightCell"></property>
+    <property name="borderRightCol"></property>
+    <property name="borderRightRow"></property>
+    <property name="borderTopCell"></property>
+    <property name="borderTopCol"></property>
+    <property name="borderTopRow"></property>
+    <property name="chartMarginBottom">null</property>
+    <property name="chartMarginLeft">null</property>
+    <property name="chartMarginRight">null</property>
+    <property name="chartMarginTop">null</property>
+    <property name="chartToggle">none</property>
+    <property name="csv">1</property>
+    <property name="drillDown">0</property>
+    <property name="excel">1</property>
+    <property name="filterRowCount">null</property>
+    <property name="filterTableCaptionStyle">border:none;color:white;background-color:#6f6fff;text-align:left;font-weight:bold;font-size:6pt;</property>
+    <property name="filterTableItemStyle">border:none;text-align:left;font-weight:normal;font-size:6pt;</property>
+    <property name="filterTableStyle">border:1pt solid gray;</property>
+    <property name="fontFamilyCell"></property>
+    <property name="fontFamilyCol"></property>
+    <property name="fontFamilyRow"></property>
+    <property name="fontSizeCell"></property>
+    <property name="fontSizeCol"></property>
+    <property name="fontSizeRow"></property>
+    <property name="listingFontSize">6pt</property>
+    <property name="maxRows"></property>
+    <property name="nowDisplayFormat"></property>
+    <property name="print">1</property>
+    <property name="printMarginBottom"></property>
+    <property name="printMarginLeft"></property>
+    <property name="printMarginRight"></property>
+    <property name="printMarginTop"></property>
+    <property name="printOrientation">1</property>
+    <property name="printPageSize">8.5x11 in</property>
+    <property name="printSubtitle"></property>
+    <property name="printSubtitleOn">on</property>
+    <property name="printTitle"></property>
+    <property name="showDate">off</property>
+    <property name="showFilters">byTable</property>
+    <property name="showListingFilters">off</property>
+    <property name="showUser">off</property>
+    <property name="showZebraStripes">on</property>
+    <override name="pivot">{absolutePositioning:'1',drillRowNumbers:[],hiddenMeasureText:[],rowCaptionList:['CountryRegion'],rowHeaderStyle:'font-style: italic;',rowTotalSource:'all',rowTotals:true,_type:'pivotTable'}</override>
+  </widget>
+  <widget name="PieChartRecoveredByCountries" type="pivot" subtype="pieChart" subtypeClass="pieChart" title="" dataSource="Covid19/Recovered.pivot" dataLink="" drillDownDataSource="" width="200" height="200" sidebarContent="" showSidebar="false" sidebarWidth="" maximized="false" homeRowL="0" homeColL="4" colSpanL="6" rowSpanL="10" showToolbar="true" showToolbarBottomBorder="true" showToolbarOnlyWhenMaximized="false" colorToolbar="#F0F0F0" opacityToolbar="1" backgroundColor="#F0F0F0" opacity="1" theme="" dataColorList="">
+  </widget>
+</dashboard>
