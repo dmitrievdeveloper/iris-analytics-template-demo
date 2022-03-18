@@ -3,8 +3,9 @@
  [![Reliability Rating](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Firis-analytics-template&metric=reliability_rating)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2Firis-analytics-template)
 
 # Результаты
-<img width="799" alt="Скрин 1" src="https://drive.google.com/file/d/1SyAfHYGKuiGiZ3dgPO0QyGMOqF0Jw51g/view?usp=sharing">
-<img width="799" alt="Скрин 2" src="https://drive.google.com/file/d/1MohQAQ2HMI0hnLx1oBcCR8vwd1BAYmW5/view?usp=sharing">
+[chrome-rmq-F40uywz.png](https://postimg.cc/K31rTFWR)
+
+[chrome-Tc-Nj-MIHiti.png](https://postimg.cc/5jymTqtb)
 Но выполнить "build" не удалось.
 
 # iris-analytics-template
